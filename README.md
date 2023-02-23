@@ -9,7 +9,7 @@ Latest version tested against - Ballerina 2201.4.0-RC1
 - Samples are grouped in folders named numerically to suggest an order to be followed. However, you should generally be able to follow any arbitrary sample without having to go through the previous samples if necessary. 
 - Each folder contains 
     - the sample as a Ballerina notebook 
-    - the sample as an MD file
+    - the sample as an MD file (README)
     - a separate .bal file with just the code (but this may not be a 1:1 match with the code in the notebook since the same function may be updated)
     - diagrams corresponding to the code
 

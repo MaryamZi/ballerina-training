@@ -1,6 +1,13 @@
 In this sample, we will be looking at working with XML in Ballerina. We will use the HTTP client to retrieve population data via the [World Bank Indicators API](https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation) and then process the retrieved data.
 
 
+This sample demonstrates the following.
+- Using an HTTP client to retrieve XML data
+- Query expressions
+- XML subtypes and attributes
+- Defining and using application-specific types corresponding to JSON payload
+
+
 Let's first import the required modules. 
 
 
