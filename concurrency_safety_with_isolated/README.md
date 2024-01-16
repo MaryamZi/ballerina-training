@@ -766,5 +766,11 @@ isolated function getResult(string url, Config config) returns string {
 ```
 
 
+Such strands can safely scheduled on different threads.
+
+
 ### Inferring isolated
 
+End users are generally not expected to explicitly add `isolated`. If the written code is safe (i.e., no compilation errors if `isolated` was added explicitly), the compiler will infer `isolated`.
+
+Library developers, on the other hand, and others who develop publicly exposed constructs are expected to explicitly add `isolated` to guarantee `isolated`, which will eventually lead to inferring `isolated` for user code.
