@@ -1,3 +1,5 @@
+**Note:** This is the first take at explaining concepts behind isolated and concurrency-safety in Ballerina.
+
 ### Mutability
 
 

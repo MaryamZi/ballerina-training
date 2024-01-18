@@ -23,4 +23,4 @@ Latest version tested against - Ballerina 2201.8.2
 | :--: | ------------- |
 |   [working_with_json_response](working_with_json_response)  | JSON, query expressions, JSON to record conversion, HTTP client |
 |   [working_with_xml_response](working_with_xml_response)  | XML, query expressions, HTTP client |
-|   [concurrency_safety_with_isolated](concurrency_safety_with_isolated)  | isolated, concurrency safety |
+|   [Draft] [concurrency_safety_with_isolated](concurrency_safety_with_isolated)  | isolated, concurrency safety |
